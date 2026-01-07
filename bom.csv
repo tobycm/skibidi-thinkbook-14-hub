@@ -1,0 +1,27 @@
+Item,Quantity,Total Cost,Vendor,Link,Description
+PCB,5,$11.90,JLCPCB,https://jlcpcb.com/,
+PCBA,2,$59.26,JLCPCB,,
+JLCPCB Shipping,1,$8.29,JLCPCB,,
+,,,,,
+PJ-325C5-G,5,$0.90,LCSC,https://www.lcsc.com/product-detail/C692438.html,3.5mm Headphone Jack 0.5A 30V Through Hole
+ESD5Z5.0T1G,20,$0.67,LCSC,https://www.lcsc.com/product-detail/C82044.html,18.6VC Clamp 9.4A@8/20us Ipp ESD DIODE SOD-523
+BSMD1206-200-12V,10,$0.61,LCSC,https://www.lcsc.com/product-detail/C883135.html,Polymeric PTC Resettable Fuse 12V 2A Surface Mount 1206
+BLM21PG221SN1D,50,$0.83,LCSC,https://www.lcsc.com/product-detail/C85840.html,220Ω@100MHz 1 Line Ferrite Bead 0805 2A 45mΩ
+HR911130C,3,$7.68,LCSC,https://www.lcsc.com/product-detail/C50933.html,"Jack Modular Connector RJ45 Through Hole, Right Angle Shielded"
+ME6211C33M5G-N,10,$0.47,LCSC,https://www.lcsc.com/product-detail/C82942.html,"Positive Fixed 3.3V SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS"
+0603WAF4302T5E,100,$0.12,LCSC,https://www.lcsc.com/product-detail/C23172.html,43kΩ ±1% 100mW 0603 Thick Film Resistor
+FRC0603F9531TS,100,$0.09,LCSC,https://www.lcsc.com/product-detail/C2960722.html,9.53kΩ ±1% 100mW 0603 Thick Film Resistor
+0402WGF2491TCE,200,$0.12,LCSC,https://www.lcsc.com/product-detail/C25884.html,2.49kΩ ±1% 62.5mW 0402 Thick Film Resistor
+HC-USB3.0-C26,5,$0.53,LCSC,https://www.lcsc.com/product-detail/C7501854.html,USB-A (USB TYPE-A) Receptacle Connector 9 Position Recessed Mount
+CYA0650-4.7UH,5,$1.28,LCSC,https://www.lcsc.com/product-detail/C5189754.html,"6A 4.7uH ±20% 8A 26mΩ SMD,7.2x6.6mm Fixed Inductors RoHS"
+HC-ST-003-01-J,20,$2.49,LCSC,https://www.lcsc.com/product-detail/C2845330.html,USB-A (USB TYPE-A) Receptacle Connector 9 Position Right Angle
+TYPE-C 14PLC-H10.0,20,$4.68,LCSC,https://www.lcsc.com/product-detail/C3151746.html,USB-C (USB TYPE-C) Receptacle Connector 14 Position Through Hole
+XL2EL89COI-111YLC-24M,10,$0.65,LCSC,https://www.lcsc.com/product-detail/C5444545.html,Crystal 24MHz ±10ppm 12pF SMD3225-4P
+XL2EL89COI-111YLC-12M,10,$0.67,LCSC,https://www.lcsc.com/product-detail/C5280578.html,Crystal 12MHz ±10ppm 12pF SMD3225-4P
+Caps,100,$1.00,LCSC,,
+LCSC Shipping,1,$16.09,LCSC,,
+,,,,,
+Round Hex Cap Screw kit M3,1,$8.52,Aliexpress,https://www.aliexpress.com/item/1005007197683325.html,
+Brass Threaded Insert Nut Kit M3,1,$10.54,Aliexpress,https://www.aliexpress.com/item/1005006472962973.html,
+,,,,,
+skibidi thinkbook 14 hub,1,$137.39,,https://github.com/tobycm/skibidi-thinkbook-14-hub,
