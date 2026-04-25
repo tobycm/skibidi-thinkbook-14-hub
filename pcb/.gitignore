@@ -29,13 +29,13 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
 
 # Local project settings
 *.kicad_prl
 
-gerber/
+# jlcpcb production files
+jlcpcb/*
+!jlcpcb/production_files
+!jlcpcb/production_files/*

@@ -1293,19 +1293,19 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:PJ-325C5-G"
+		(symbol "easyeda2kicad:PJ-320A-4PDIP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 10.16 0)
+			(property "Reference" "U"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PJ-325C5-G"
+			(property "Value" "PJ-320A-4P DIP"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -1313,7 +1313,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:AUDIO-TH_PJ-325C5-G"
+			(property "Footprint" "easyeda2kicad:AUDIO-TH_PJ-320A-4P-DIP"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1322,8 +1322,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_XKB-Connectivity-PJ-325C5-G_C692438.html"
-				(at 0 -15.24 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1340,8 +1340,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C692438"
-				(at 0 -17.78 0)
+			(property "LCSC Part" "C18185602"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1349,10 +1349,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PJ-325C5-G_0_1"
+			(symbol "PJ-320A-4PDIP_0_1"
 				(rectangle
-					(start -11.18 0)
-					(end -9.14 -4.57)
+					(start -9.65 -0.51)
+					(end -8.64 -4.57)
 					(stroke
 						(width 0)
 						(type default)
@@ -1363,7 +1363,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 2.54) (xy -5.33 1.52)
+						(xy 0 2.54) (xy -9.14 2.54) (xy -9.14 -0.51)
 					)
 					(stroke
 						(width 0)
@@ -1375,7 +1375,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.33 -4.06)
+						(xy 0 0) (xy -2.54 0) (xy -3.05 1.27) (xy -3.56 0)
 					)
 					(stroke
 						(width 0)
@@ -1387,7 +1387,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 5.08) (xy -10.16 5.08) (xy -10.16 0)
+						(xy 0 -2.54) (xy -4.57 -2.54) (xy -5.08 -1.27) (xy -5.59 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1399,7 +1399,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy -6.86 2.54) (xy -7.37 1.52) (xy -7.87 2.54)
+						(xy 0 -5.08) (xy -6.86 -5.08) (xy -7.37 -3.81) (xy -7.87 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1407,73 +1407,19 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -5.08 0) (xy -5.08 2.54) (xy -4.83 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -5.08 -2.54) (xy -5.08 -5.08) (xy -4.83 -4.06)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy -6.6 -5.08) (xy -7.11 -4.06) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 5.08 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin unspecified line
 					(at 2.54 2.54 180)
 					(length 2.54)
-					(name "3"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1484,14 +1430,14 @@
 				(pin unspecified line
 					(at 2.54 0 180)
 					(length 2.54)
-					(name "5"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1502,14 +1448,14 @@
 				(pin unspecified line
 					(at 2.54 -2.54 180)
 					(length 2.54)
-					(name "4"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1520,14 +1466,14 @@
 				(pin unspecified line
 					(at 2.54 -5.08 180)
 					(length 2.54)
-					(name "2"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2049,16 +1995,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 87.63) (xy 201.93 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00cb5ceb-ce37-4209-af31-b602fe0d3198")
-	)
-	(wire
-		(pts
 			(xy 246.38 24.13) (xy 251.46 24.13)
 		)
 		(stroke
@@ -2096,6 +2032,16 @@
 			(type default)
 		)
 		(uuid "09cc37be-78a5-4988-9471-572aa8789611")
+	)
+	(wire
+		(pts
+			(xy 213.36 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfeb6a7-41bf-4870-be32-bfc45aa52e32")
 	)
 	(wire
 		(pts
@@ -2189,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 82.55) (xy 215.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d4c0fc-56fa-4df7-b3c9-cf13d2fe53f4")
+	)
+	(wire
+		(pts
 			(xy 251.46 31.75) (xy 260.35 31.75)
 		)
 		(stroke
@@ -2206,6 +2162,16 @@
 			(type default)
 		)
 		(uuid "31b40fd8-2c47-46a5-a1ab-eb646fc00e7e")
+	)
+	(wire
+		(pts
+			(xy 171.45 85.09) (xy 208.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31db9852-2d06-4ef5-a498-7b726baac2f4")
 	)
 	(wire
 		(pts
@@ -2256,16 +2222,6 @@
 			(type default)
 		)
 		(uuid "376d3d83-5c36-4116-9731-3bdcce904018")
-	)
-	(wire
-		(pts
-			(xy 203.2 77.47) (xy 203.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d9ae32-e42c-4b0f-b72c-b616f5ffe7ac")
 	)
 	(wire
 		(pts
@@ -2329,6 +2285,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 82.55) (xy 208.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ccb919c-576b-4d67-8c2f-edfe9affab2f")
+	)
+	(wire
+		(pts
 			(xy 154.94 110.49) (xy 157.48 110.49)
 		)
 		(stroke
@@ -2336,16 +2302,6 @@
 			(type default)
 		)
 		(uuid "5f255138-abc8-469e-aef1-4c74f56934a6")
-	)
-	(wire
-		(pts
-			(xy 204.47 87.63) (xy 215.9 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d63e45-260f-4643-9cd4-fc43fcacd6f0")
 	)
 	(wire
 		(pts
@@ -2479,16 +2435,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 85.09) (xy 204.47 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93a0eb32-a113-4db9-8853-9b0b1b591bbf")
-	)
-	(wire
-		(pts
 			(xy 45.72 50.8) (xy 45.72 48.26)
 		)
 		(stroke
@@ -2579,6 +2525,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 87.63) (xy 213.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ade23f84-0cdf-4286-8502-474e4f7953c4")
+	)
+	(wire
+		(pts
+			(xy 210.82 85.09) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae49ed05-64e1-48cb-b4b5-198bdf7872cd")
+	)
+	(wire
+		(pts
 			(xy 45.72 60.96) (xy 63.5 60.96)
 		)
 		(stroke
@@ -2586,6 +2552,16 @@
 			(type default)
 		)
 		(uuid "b240d95f-952e-4c72-aa3b-395b3103180d")
+	)
+	(wire
+		(pts
+			(xy 210.82 85.09) (xy 215.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74f90a7-8d50-4a8b-ba02-ff2c0ca62907")
 	)
 	(wire
 		(pts
@@ -2619,7 +2595,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 77.47) (xy 215.9 77.47)
+			(xy 205.74 80.01) (xy 215.9 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2689,6 +2665,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 87.63) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ea08b9-f745-4e70-80a2-114e7af4f455")
+	)
+	(wire
+		(pts
 			(xy 251.46 24.13) (xy 256.54 24.13)
 		)
 		(stroke
@@ -2729,16 +2715,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 85.09) (xy 201.93 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deb44b43-c429-4746-af3e-cca06fffd0e3")
-	)
-	(wire
-		(pts
 			(xy 260.35 19.05) (xy 260.35 29.21)
 		)
 		(stroke
@@ -2769,16 +2745,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 87.63) (xy 209.55 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87eff7e-d3cd-431f-a979-75fbc7569823")
-	)
-	(wire
-		(pts
 			(xy 45.72 58.42) (xy 45.72 60.96)
 		)
 		(stroke
@@ -2806,16 +2772,6 @@
 			(type default)
 		)
 		(uuid "f4de6c88-adc7-4318-a1c6-7f745a49e624")
-	)
-	(wire
-		(pts
-			(xy 209.55 80.01) (xy 215.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5e055b5-fd35-4547-854a-84d9b7556d3e")
 	)
 	(wire
 		(pts
@@ -3212,16 +3168,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 80.01 0)
+		(at 213.36 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "33963b91-0a7b-4a6b-8e4a-94bf661256cf")
-		(property "Reference" "#PWR064"
-			(at 203.2 86.36 0)
+		(uuid "20027bfd-e7c4-4838-a2d1-0e069c017c84")
+		(property "Reference" "#PWR066"
+			(at 213.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,7 +3186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 85.09 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3195,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 80.01 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 80.01 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3213,74 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 80.01 0)
+			(at 213.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55600ed5-6160-47f9-b073-1e4d4405549b")
+		)
+		(instances
+			(project "skibidi-thinkbook-14-hub"
+				(path "/0d04eb57-031b-48ec-be74-0a9027beaa51/5c24449d-60a6-4a4c-a0c1-a5bc99a0e554"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33963b91-0a7b-4a6b-8e4a-94bf661256cf")
+		(property "Reference" "#PWR064"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,95 +3762,6 @@
 			(project ""
 				(path "/0d04eb57-031b-48ec-be74-0a9027beaa51/5c24449d-60a6-4a4c-a0c1-a5bc99a0e554"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:PJ-325C5-G")
-		(at 218.44 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b4143b9-516a-4436-98f3-cfbb387457ec")
-		(property "Reference" "CN1"
-			(at 231.14 80.6449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PJ-325C5-G"
-			(at 231.14 84.4549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:AUDIO-TH_PJ-325C5-G"
-			(at 218.44 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_XKB-Connectivity-PJ-325C5-G_C692438.html"
-			(at 218.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C692438"
-			(at 218.44 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d8df4988-9ebd-4158-b15b-4695c641cbdd")
-		)
-		(pin "5"
-			(uuid "13dfd6ac-7964-4230-837f-9d0548e6ff47")
-		)
-		(pin "3"
-			(uuid "55c94430-64b2-42cc-a06c-bfa8371acf40")
-		)
-		(pin "1"
-			(uuid "d2ecf856-1998-414b-ad4c-e86cf4ccef7c")
-		)
-		(pin "2"
-			(uuid "b8602b42-22ff-425c-a723-8a3867d8601f")
-		)
-		(instances
-			(project ""
-				(path "/0d04eb57-031b-48ec-be74-0a9027beaa51/5c24449d-60a6-4a4c-a0c1-a5bc99a0e554"
-					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -4320,6 +4254,92 @@
 			(project "skibidi-thinkbook-14-hub"
 				(path "/0d04eb57-031b-48ec-be74-0a9027beaa51/5c24449d-60a6-4a4c-a0c1-a5bc99a0e554"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:PJ-320A-4PDIP")
+		(at 218.44 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97d22cfc-b04e-4ee1-aaba-95082648ebf8")
+		(property "Reference" "U8"
+			(at 229.87 81.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ-320A-4P DIP"
+			(at 229.87 85.7249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:AUDIO-TH_PJ-320A-4P-DIP"
+			(at 218.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C18185602"
+			(at 218.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "a3d0aec4-40ad-4d08-96a3-16f512d6e31a")
+		)
+		(pin "C"
+			(uuid "1daeae25-aaef-4971-bae6-1a60407d3e66")
+		)
+		(pin "D"
+			(uuid "4adb7437-1e79-4981-8464-50e3a74c936b")
+		)
+		(pin "A"
+			(uuid "4836f5ac-468f-4dc5-88df-337295fa2e5a")
+		)
+		(instances
+			(project ""
+				(path "/0d04eb57-031b-48ec-be74-0a9027beaa51/5c24449d-60a6-4a4c-a0c1-a5bc99a0e554"
+					(reference "U8")
 					(unit 1)
 				)
 			)
